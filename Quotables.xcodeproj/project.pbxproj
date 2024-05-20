@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4DE27BAAEAFA19FCF0D56A /* Pods_Quotables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30079CE9D1A73B8570CE9A33 /* Pods_Quotables.framework */; };
 		F91C15FF2BF8D448000CD259 /* QuotablesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C15FE2BF8D448000CD259 /* QuotablesApp.swift */; };
 		F91C16012BF8D448000CD259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C16002BF8D448000CD259 /* ContentView.swift */; };
 		F91C16032BF8D44B000CD259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91C16022BF8D44B000CD259 /* Assets.xcassets */; };
 		F91C16062BF8D44B000CD259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91C16052BF8D44B000CD259 /* Preview Assets.xcassets */; };
+		F987469D2BFA822000D479E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F987469C2BFA822000D479E6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30079CE9D1A73B8570CE9A33 /* Pods_Quotables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D05204796CA845AA7026F48 /* Pods-Quotables.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotables.debug.xcconfig"; path = "Target Support Files/Pods-Quotables/Pods-Quotables.debug.xcconfig"; sourceTree = "<group>"; };
+		BC186E207D0CE79A0169A99E /* Pods-Quotables.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotables.release.xcconfig"; path = "Target Support Files/Pods-Quotables/Pods-Quotables.release.xcconfig"; sourceTree = "<group>"; };
 		F91C15FB2BF8D448000CD259 /* Quotables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91C15FE2BF8D448000CD259 /* QuotablesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotablesApp.swift; sourceTree = "<group>"; };
 		F91C16002BF8D448000CD259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F91C16022BF8D44B000CD259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F91C16052BF8D44B000CD259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F987469C2BFA822000D479E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +32,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4DE27BAAEAFA19FCF0D56A /* Pods_Quotables.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47B0DA6FC9D3747D5B4745BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30079CE9D1A73B8570CE9A33 /* Pods_Quotables.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B1D7162BBF319C45C0A38B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D05204796CA845AA7026F48 /* Pods-Quotables.debug.xcconfig */,
+				BC186E207D0CE79A0169A99E /* Pods-Quotables.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F91581882BFAFC2A00D031A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F91C16002BF8D448000CD259 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F915818A2BFAFC4300D031A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F915818B2BFB006F00D031A4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F915818C2BFB009F00D031A4 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				F987469C2BFA822000D479E6 /* GoogleService-Info.plist */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
 		F91C15F22BF8D448000CD259 = {
 			isa = PBXGroup;
 			children = (
 				F91C15FD2BF8D448000CD259 /* Quotables */,
 				F91C15FC2BF8D448000CD259 /* Products */,
+				E4B1D7162BBF319C45C0A38B /* Pods */,
+				47B0DA6FC9D3747D5B4745BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +107,11 @@
 		F91C15FD2BF8D448000CD259 /* Quotables */ = {
 			isa = PBXGroup;
 			children = (
+				F915818C2BFB009F00D031A4 /* Backend */,
+				F915818B2BFB006F00D031A4 /* Controllers */,
+				F915818A2BFAFC4300D031A4 /* Models */,
+				F91581882BFAFC2A00D031A4 /* Views */,
 				F91C15FE2BF8D448000CD259 /* QuotablesApp.swift */,
-				F91C16002BF8D448000CD259 /* ContentView.swift */,
 				F91C16022BF8D44B000CD259 /* Assets.xcassets */,
 				F91C16042BF8D44B000CD259 /* Preview Content */,
 			);
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F91C16092BF8D44B000CD259 /* Build configuration list for PBXNativeTarget "Quotables" */;
 			buildPhases = (
+				3D46B9F090B11E69611EA3B4 /* [CP] Check Pods Manifest.lock */,
 				F91C15F72BF8D448000CD259 /* Sources */,
 				F91C15F82BF8D448000CD259 /* Frameworks */,
 				F91C15F92BF8D448000CD259 /* Resources */,
+				4FE6CD9B99DBCE9A6E3BC525 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,10 +188,53 @@
 			files = (
 				F91C16062BF8D44B000CD259 /* Preview Assets.xcassets in Resources */,
 				F91C16032BF8D44B000CD259 /* Assets.xcassets in Resources */,
+				F987469D2BFA822000D479E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D46B9F090B11E69611EA3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quotables-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE6CD9B99DBCE9A6E3BC525 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quotables/Pods-Quotables-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quotables/Pods-Quotables-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quotables/Pods-Quotables-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F91C15F72BF8D448000CD259 /* Sources */ = {
@@ -182,7 +286,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +349,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,6 +370,7 @@
 		};
 		F91C160A2BF8D44B000CD259 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D05204796CA845AA7026F48 /* Pods-Quotables.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,11 +380,12 @@
 				DEVELOPMENT_TEAM = T5UWV3757Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Quotables;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +401,7 @@
 		};
 		F91C160B2BF8D44B000CD259 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC186E207D0CE79A0169A99E /* Pods-Quotables.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,11 +411,12 @@
 				DEVELOPMENT_TEAM = T5UWV3757Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Quotables;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
