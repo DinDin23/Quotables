@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		2D4DE27BAAEAFA19FCF0D56A /* Pods_Quotables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30079CE9D1A73B8570CE9A33 /* Pods_Quotables.framework */; };
 		F91C15FF2BF8D448000CD259 /* QuotablesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C15FE2BF8D448000CD259 /* QuotablesApp.swift */; };
-		F91C16012BF8D448000CD259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C16002BF8D448000CD259 /* ContentView.swift */; };
 		F91C16032BF8D44B000CD259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91C16022BF8D44B000CD259 /* Assets.xcassets */; };
 		F91C16062BF8D44B000CD259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91C16052BF8D44B000CD259 /* Preview Assets.xcassets */; };
+		F92CF6502BFB6D51009B39DC /* QuotebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CF64F2BFB6D51009B39DC /* QuotebookView.swift */; };
 		F987469D2BFA822000D479E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F987469C2BFA822000D479E6 /* GoogleService-Info.plist */; };
+		F9BCB3292BFB225400C09711 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCB3282BFB225400C09711 /* LoginView.swift */; };
+		F9BCB32B2BFB226400C09711 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCB32A2BFB226400C09711 /* RegistrationView.swift */; };
+		F9BCB32F2BFB269600C09711 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCB32E2BFB269600C09711 /* AuthenticationManager.swift */; };
+		F9BCB3342BFB318B00C09711 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCB3332BFB318B00C09711 /* LoginViewModel.swift */; };
+		F9BCB3362BFB31D300C09711 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCB3352BFB31D300C09711 /* RegistrationViewModel.swift */; };
+		F9BCB3382BFB508800C09711 /* SplashView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BCB3372BFB508800C09711 /* SplashView.storyboard */; };
+		F9BCB33A2BFB56A200C09711 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCB3392BFB56A200C09711 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +28,17 @@
 		BC186E207D0CE79A0169A99E /* Pods-Quotables.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotables.release.xcconfig"; path = "Target Support Files/Pods-Quotables/Pods-Quotables.release.xcconfig"; sourceTree = "<group>"; };
 		F91C15FB2BF8D448000CD259 /* Quotables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91C15FE2BF8D448000CD259 /* QuotablesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotablesApp.swift; sourceTree = "<group>"; };
-		F91C16002BF8D448000CD259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F91C16022BF8D44B000CD259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F91C16052BF8D44B000CD259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F92CF64F2BFB6D51009B39DC /* QuotebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotebookView.swift; sourceTree = "<group>"; };
 		F987469C2BFA822000D479E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9BCB3282BFB225400C09711 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F9BCB32A2BFB226400C09711 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		F9BCB32E2BFB269600C09711 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		F9BCB3332BFB318B00C09711 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F9BCB3352BFB31D300C09711 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		F9BCB3372BFB508800C09711 /* SplashView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashView.storyboard; sourceTree = "<group>"; };
+		F9BCB3392BFB56A200C09711 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,11 @@
 		F91581882BFAFC2A00D031A4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F91C16002BF8D448000CD259 /* ContentView.swift */,
+				F9BCB3372BFB508800C09711 /* SplashView.storyboard */,
+				F9BCB3392BFB56A200C09711 /* MainView.swift */,
+				F9BCB3282BFB225400C09711 /* LoginView.swift */,
+				F9BCB32A2BFB226400C09711 /* RegistrationView.swift */,
+				F92CF64F2BFB6D51009B39DC /* QuotebookView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -71,17 +89,11 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F915818B2BFB006F00D031A4 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		F915818C2BFB009F00D031A4 /* Backend */ = {
 			isa = PBXGroup;
 			children = (
 				F987469C2BFA822000D479E6 /* GoogleService-Info.plist */,
+				F9BCB32E2BFB269600C09711 /* AuthenticationManager.swift */,
 			);
 			path = Backend;
 			sourceTree = "<group>";
@@ -108,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				F915818C2BFB009F00D031A4 /* Backend */,
-				F915818B2BFB006F00D031A4 /* Controllers */,
 				F915818A2BFAFC4300D031A4 /* Models */,
+				F9BCB3322BFB316900C09711 /* ViewModels */,
 				F91581882BFAFC2A00D031A4 /* Views */,
 				F91C15FE2BF8D448000CD259 /* QuotablesApp.swift */,
 				F91C16022BF8D44B000CD259 /* Assets.xcassets */,
@@ -124,6 +136,15 @@
 				F91C16052BF8D44B000CD259 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9BCB3322BFB316900C09711 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F9BCB3332BFB318B00C09711 /* LoginViewModel.swift */,
+				F9BCB3352BFB31D300C09711 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +209,7 @@
 			files = (
 				F91C16062BF8D44B000CD259 /* Preview Assets.xcassets in Resources */,
 				F91C16032BF8D44B000CD259 /* Assets.xcassets in Resources */,
+				F9BCB3382BFB508800C09711 /* SplashView.storyboard in Resources */,
 				F987469D2BFA822000D479E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,8 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91C16012BF8D448000CD259 /* ContentView.swift in Sources */,
+				F9BCB3292BFB225400C09711 /* LoginView.swift in Sources */,
+				F9BCB33A2BFB56A200C09711 /* MainView.swift in Sources */,
+				F92CF6502BFB6D51009B39DC /* QuotebookView.swift in Sources */,
+				F9BCB32F2BFB269600C09711 /* AuthenticationManager.swift in Sources */,
 				F91C15FF2BF8D448000CD259 /* QuotablesApp.swift in Sources */,
+				F9BCB3362BFB31D300C09711 /* RegistrationViewModel.swift in Sources */,
+				F9BCB32B2BFB226400C09711 /* RegistrationView.swift in Sources */,
+				F9BCB3342BFB318B00C09711 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct MainView: View {
+    @State var showLogInView: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            NavigationStack{
+                QuotebookView()
+            }
+        }
+        .onAppear() {
+            let authenticatedUser = try? AuthenticationManager.shared.getAuthenticatedUser()
+            self.showLogInView = authenticatedUser == nil
+        }
+        .fullScreenCover(isPresented: $showLogInView) {
+            NavigationStack {
+                LoginView()
+            }
+        }
     }
 }
 

@@ -12,6 +12,8 @@ xcuserdata/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-
 #Cocoapods
 Pods/
+
+#Firebase
+*.plist
